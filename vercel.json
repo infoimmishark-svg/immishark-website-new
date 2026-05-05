@@ -1,4 +1,17 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "rewrites": [
+    {
+      "source": "/bookings",
+      "destination": "/bookings/index.html"
+    },
+    {
+      "source": "/bookings/",
+      "destination": "/bookings/index.html"
+    },
+    {
+      "source": "/bookings.html",
+      "destination": "/bookings/index.html"
+    }
+  ]
 }
